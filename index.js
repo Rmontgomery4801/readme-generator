@@ -40,23 +40,23 @@ const questions = [
     type: 'checkbox',
     name: 'license',
     message: 'Which license should your project have? (Choose one)',
-    choices: ['Apache2', 'MIT', 'GNUPLv3', 'ISC']
+    choices: ['Apache 2.0', 'MIT', 'GPLv2', 'Other']
   },
   {
     type: 'input',
     name: 'installation',
-    message: 'Enter the installation instructions (if applicable) to run your project'
+    message: 'Enter the installation instructions to run your project'
   },
   {
     type: 'input',
     name: 'usage',
     message: 'Enter the usage information of the repository for the user'
   },
-  {
-    type: 'input',
-    name: 'tests',
-    message: 'Enter commands that should be used to run tests'
-  },
+  // {
+  //   type: 'input',
+  //   name: 'tests',
+  //   message: 'Enter commands that should be used to run tests'
+  // },
   {
     type: 'input',
     name: 'contribute',
