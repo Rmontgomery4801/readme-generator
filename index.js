@@ -52,11 +52,11 @@ const questions = [
     name: 'usage',
     message: 'Enter the usage information of the repository for the user'
   },
-  // {
-  //   type: 'input',
-  //   name: 'tests',
-  //   message: 'Enter commands that should be used to run tests'
-  // },
+  {
+    type: 'input',
+    name: 'tests',
+    message: 'Enter commands that should be used to run tests'
+  },
   {
     type: 'input',
     name: 'contribute',
